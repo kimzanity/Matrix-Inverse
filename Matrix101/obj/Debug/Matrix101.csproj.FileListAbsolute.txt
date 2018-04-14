@@ -12,3 +12,6 @@ c:\users\kim perea\documents\visual studio 2013\Projects\Matrix101\Matrix101\obj
 c:\users\kim perea\documents\visual studio 2013\Projects\Matrix101\Matrix101\obj\Debug\Matrix101.intro.resources
 C:\Users\Kim Perea\Documents\Visual Studio 2013\Projects\Matrix101\Matrix101\obj\Debug\Matrix101.add.resources
 C:\Users\Kim Perea\Documents\Visual Studio 2013\Projects\Matrix101\Matrix101\obj\Debug\Matrix101.about.resources
+C:\Users\Kim Perea\Desktop\Matrix101\Matrix101\bin\Debug\Matrix101.exe.config
+C:\Users\Kim Perea\Desktop\Matrix101\Matrix101\obj\Debug\Matrix101.exe
+C:\Users\Kim Perea\Desktop\Matrix101\Matrix101\obj\Debug\Matrix101.pdb
