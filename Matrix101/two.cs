@@ -31,6 +31,7 @@ namespace Matrix101
 
         private void BunifuFlatButton1_Click(object sender, EventArgs e)
         {
+            la.Text = "Inverse";
             i kim = new i();
             try
             {
@@ -151,5 +152,123 @@ namespace Matrix101
         {
 
         }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+            la.Text = "Matrix Minors"; 
+            i kim = new i();
+            try
+            {
+                double ta = double.Parse(a.Text);
+                double tb = double.Parse(b.Text);
+                double tc = double.Parse(c.Text);
+                double td = double.Parse(d.Text);
+
+                kim.SetA(ta);
+                kim.SetB(tb);
+                kim.SetC(tc);
+                kim.SetD(td);
+
+                kim.Det();
+                if (kim.gdet()==0)
+                {
+                    MessageBox.Show("Determinant is 0 can't perform the operation");
+                }
+                else
+                {
+                    kim.MatrixMinors();
+
+                    aa.Text = "" + kim.getmma();
+                    bb.Text = "" + kim.getmmb();
+                    cc.Text = "" + kim.getmmc();
+                    dd.Text = "" + kim.getmmd();
+                }
+               
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("You inputed incomplete data!");
+            }
+        }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            la.Text = "Cofactors";
+            i kim = new i();
+            try
+            {
+                double ta = double.Parse(a.Text);
+                double tb = double.Parse(b.Text);
+                double tc = double.Parse(c.Text);
+                double td = double.Parse(d.Text);
+
+                kim.SetA(ta);
+                kim.SetB(tb);
+                kim.SetC(tc);
+                kim.SetD(td);
+
+                kim.Det();
+                if (kim.gdet() == 0)
+                {
+                    MessageBox.Show("Determinant is 0 can't perform the operation");
+                }
+                else
+                {
+                    kim.MatrixMinors();
+
+                    aa.Text = "" + kim.getna();
+                    bb.Text = "" + kim.getnb();
+                    cc.Text = "" + kim.getnc();
+                    dd.Text = "" + kim.getnd();
+                }
+
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("You inputed incomplete data!");
+            }
+        }
+
+        private void bunifuFlatButton5_Click(object sender, EventArgs e)
+        {
+            la.Text = "Adjugate";
+            i kim = new i();
+            try
+            {
+                double ta = double.Parse(a.Text);
+                double tb = double.Parse(b.Text);
+                double tc = double.Parse(c.Text);
+                double td = double.Parse(d.Text);
+
+                kim.SetA(ta);
+                kim.SetB(tb);
+                kim.SetC(tc);
+                kim.SetD(td);
+
+                kim.Det();
+                if (kim.gdet() == 0)
+                {
+                    MessageBox.Show("Determinant is 0 can't perform the operation");
+                }
+                else
+                {
+                    kim.MatrixMinors();
+
+                    aa.Text = "" + kim.getsa();
+                    bb.Text = "" + kim.getsb();
+                    cc.Text = "" + kim.getsc();
+                    dd.Text = "" + kim.getsd();
+                }
+
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("You inputed incomplete data!");
+            }
+        }
+        }
     }
-}
+

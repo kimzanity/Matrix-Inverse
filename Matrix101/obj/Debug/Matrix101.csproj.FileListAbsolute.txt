@@ -20,11 +20,8 @@ C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.exe
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.pdb
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\bin\Debug\Matrix101.exe
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\bin\Debug\Matrix101.pdb
-C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.csprojResolveAssemblyReference.cache
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.about.resources
-C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.add.resources
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.Form1.resources
-C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.intro.resources
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.Properties.Resources.resources
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.three.resources
 C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Debug\Matrix101.two.resources

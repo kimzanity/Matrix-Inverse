@@ -1,0 +1,13 @@
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.about.resources
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.Form1.resources
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.Properties.Resources.resources
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.three.resources
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.two.resources
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.csproj.GenerateResource.Cache
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\bin\Release\Matrix101.exe.config
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\bin\Release\Matrix101.exe
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\bin\Release\Matrix101.pdb
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\bin\Release\Bunifu_UI_v1.52.dll
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.csprojResolveAssemblyReference.cache
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.exe
+C:\Users\Kim Perea\Documents\Matrix101\Matrix101\obj\Release\Matrix101.pdb

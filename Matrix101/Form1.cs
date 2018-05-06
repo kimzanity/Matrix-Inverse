@@ -28,8 +28,7 @@ namespace Matrix101
         {
             BunifuImageButton3.Show();
             BunifuImageButton4.Hide();
-            bunifuImageButton5.Hide();
-            bunifuImageButton6.Hide();
+
             two1.BringToFront();
         }
 
@@ -38,9 +37,9 @@ namespace Matrix101
             
             BunifuImageButton4.Show();
             BunifuImageButton3.Hide();
-            bunifuImageButton5.Hide();
+
             three1.BringToFront();
-            bunifuImageButton6.Hide();
+
             two1.Refresh();
 
         }
@@ -65,22 +64,20 @@ namespace Matrix101
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void bunifuFlatButton3_Click(object sender, EventArgs e)
-        {
-            add1.BringToFront();
-            BunifuImageButton3.Hide();
-            BunifuImageButton4.Hide();
-            bunifuImageButton5.Show();
-            bunifuImageButton6.Hide();
-        }
+
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
             about1.BringToFront();
             BunifuImageButton3.Hide();
             BunifuImageButton4.Hide();
-            bunifuImageButton5.Hide();
-            bunifuImageButton6.Show();
+        }
+
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
+        {
+            about1.BringToFront();
+            BunifuImageButton3.Hide();
+            BunifuImageButton4.Hide();
         }
     }
 }

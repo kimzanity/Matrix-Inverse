@@ -12,6 +12,8 @@ namespace Matrix101
         double det;
         double mma, mmb, mmc, mmd, mme, mmf, mmg, mmh, mmi;
         double sa, sb, sc, sd, se, sf, sg, sh, si;
+        double ssa, ssb, ssc, ssd, sse, ssf, ssg, ssh, ssi;
+        double na, nb, nc, nd, ne, nf, ng, nh, ni;
         public void SetA(double a)
         {
             this.a = a;
@@ -50,7 +52,7 @@ namespace Matrix101
         }
         public void Det()
         {
-            det = (a * (e * i) - (f * h)) - (b * (d * i) - (f * g)) + (c * (d * h) - (e * g));
+            det = (a * ((e * i) - (f * h))) - (b * ((d * i) - (f * g))) + (c * ((d * h) - (e * g)));
         }
         public void MatrixMinors()
         {
@@ -67,86 +69,193 @@ namespace Matrix101
         }
         public void nega()
         {
-            mma = mma * 1;
-            mmb = mmb * -1;
-            mmc = mmc * 1;
-            mmd = mmd * -1;
-            mme = mme * 1;
-            mmf = mmf * -1;
-            mmg = mmg * 1;
-            mmh = mmh * -1;
-            mmi = mmi * 1;
+            na = mma * 1;
+            nb = mmb * -1;
+            nc = mmc * 1;
+            nd = mmd * -1;
+            ne = mme * 1;
+            nf = mmf * -1;
+            ng = mmg * 1;
+            nh = mmh * -1;
+            ni = mmi * 1;
             s();
 
         }
         public void s()
         {
-            sa = mma;
-            sb = mmd;
-            sc = mmg;
-            sd = mmb;
-            se = mme;
-            sf = mmh;
-            sg = mmc;
-            sh = mmf;
-            si = mmi;
+            sa = na;
+            sb = nd;
+            sc = ng;
+            sd = nb;
+            se = ne;
+            sf = nh;
+            sg = nc;
+            sh = nf;
+            si = ni;
             ans();
 
         }
         public void ans()
         {
-            sa = sa / det;
-            sb = sb / det;
-            sc = sc / det;
-            sd = sd / det;
-            se = se / det;
-            sf = sf / det;
-            sg = sg / det;
-            sh = sh / det;
-            si = si / det;
+            ssa = sa / det;
+            ssb = sb / det;
+            ssc = sc / det;
+            ssd = sd / det;
+            sse = se / det;
+            ssf = sf / det;
+            ssg = sg / det;
+            ssh = sh / det;
+            ssi = si / det;
 
         }
         public double ga()
         {
-            return this.sa;
+            return this.ssa;
         }
         public double gb()
         {
-            return this.sb;
+            return this.ssb;
         }
         public double gc()
         {
-            return this.sc;
+            return this.ssc;
         }
         public double gd()
         {
-            return this.sd;
+            return this.ssd;
         }
         public double ge()
         {
-            return this.se;
+            return this.sse;
         }
         public double gf()
         {
-            return this.sf;
+            return this.ssf;
         }
         public double gg()
         {
-            return this.sg;
+            return this.ssg;
         }
         public double gh()
         {
-            return this.sh;
+            return this.ssh;
         }
         public double gi()
         {
-            return this.si;
+            return this.ssi;
         }
         public double gdet()
         {
             return this.det;
         }
-
+        public double getma()
+        {
+            return this.mma;
+        }
+        public double getmb()
+        {
+            return this.mmb;
+        }
+        public double getmc()
+        {
+            return this.mmc;
+        }
+        public double getmd()
+        {
+            return this.mmd;
+        }
+        public double getme()
+        {
+            return this.mme;
+        }
+        public double getmf()
+        {
+            return this.mmf;
+        }
+        public double getmg()
+        {
+            return this.mmg;
+        }
+        public double getmh()
+        {
+            return this.mmh;
+        }
+        public double getmi()
+        {
+            return this.mmi;
+        }
+        public double getna()
+        {
+            return this.na;
+        }
+        public double getnb()
+        {
+            return this.nb;
+        }
+        public double getnc()
+        {
+            return this.nc;
+        }
+        public double getnd()
+        {
+            return this.nd;
+        }
+        public double getne()
+        {
+            return this.ne;
+        }
+        public double getnf()
+        {
+            return this.nf;
+        }
+        public double getng()
+        {
+            return this.ng;
+        }
+        public double getnh()
+        {
+            return this.nh;
+        }
+        public double getni()
+        {
+            return this.ni;
+        }
+        public double getsa()
+        {
+            return this.sa;
+        }
+        public double getsb()
+        {
+            return this.sb;
+        }
+        public double getsc()
+        {
+            return this.sc;
+        }
+        public double getsd()
+        {
+            return this.sd;
+        }
+        public double getse()
+        {
+            return this.se;
+        }
+        public double getsf()
+        {
+            return this.sf;
+        }
+        public double getsg()
+        {
+            return this.sg;
+        }
+        public double getsh()
+        {
+            return this.sh;
+        }
+        public double getsi()
+        {
+            return this.si;
+        }
     }
     }
 

@@ -9,10 +9,12 @@ namespace Matrix101
 {
     class i
     {
-         double a, b, c, d;
+        double a, b, c, d;
         double det;
         double mma, mmb, mmc, mmd;
         double sa, sb, sc, sd;
+        double na, nb, nc, nd;
+        double ssa, ssb, ssc, ssd;
         public void SetA(double a)
         {
             this.a = a;
@@ -31,7 +33,7 @@ namespace Matrix101
         }
         public void Det()
         {
-            det = (a * d) - (b * c); 
+            det = (a * d) - (b * c);
         }
         public void MatrixMinors()
         {
@@ -43,48 +45,96 @@ namespace Matrix101
         }
         public void nega()
         {
-            mma = mma * 1;
-            mmb = mmb * -1;
-            mmc = mmc * -1;
-            mmd = mmd * 1;
+            na = mma * 1;
+            nb = mmb * -1;
+            nc = mmc * -1;
+            nd = mmd * 1;
             s();
         }
         public void s()
         {
-            sa = mma;
-            sb = mmc;
-            sc = mmb;
-            sd = mmd;
+            sa = na;
+            sc = nb;
+            sb = nc;
+            sd = nd;
             ans();
         }
         public void ans()
         {
-            sa = sa / det;
-            sb = sb / det;
-            sc = sc / det;
-            sd = sd / det;
+            ssa = sa / det;
+            ssb = sb / det;
+            ssc = sc / det;
+            ssd = sd / det;
         }
 
         public double ga()
         {
-            return this.sa;
+            return this.ssa;
         }
         public double gb()
         {
-            return this.sb;
+            return this.ssb;
         }
         public double gc()
         {
-            return this.sc;
+            return this.ssc;
         }
         public double gd()
         {
-            return this.sd;
+            return this.ssd;
         }
         public double gdet()
         {
             return this.det;
         }
-    }
+        public double getmma()
+        {
+            return this.mma;
+        }
+        public double getmmb()
+        {
+            return this.mmb;
+        }
+        public double getmmc()
+        {
+            return this.mmc;
+        }
+        public double getmmd()
+        {
+            return this.mmd;
+        }
+        public double getna()
+        {
+            return this.na;
+        }
+        public double getnb()
+        {
+            return this.nb;
+        }
+        public double getnc()
+        {
+            return this.nc;
+        }
+        public double getnd()
+        {
+            return this.nd;
+        }
+        public double getsa()
+        {
+            return this.sa;
+        }
+        public double getsb()
+        {
+            return this.sb;
+        }
+        public double getsc()
+        {
+            return this.sc;
+        }
+        public double getsd()
+        {
+            return this.sd;
+        }
     }
 
+}
